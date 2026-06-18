@@ -82,13 +82,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lumen AI — Workplace Productivity Assistant" },
+      { title: "Alulutho Gxolo AI — Workplace Productivity Assistant" },
       {
         name: "description",
         content:
           "An AI-powered workspace for drafting emails, summarizing meetings, planning tasks, and researching faster.",
       },
-      { property: "og:title", content: "Lumen AI — Workplace Productivity Assistant" },
+      { property: "og:title", content: "Alulutho Gxolo AI — Workplace Productivity Assistant" },
       {
         property: "og:description",
         content:
@@ -96,6 +96,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Alulutho Gxolo AI — Workplace Productivity Assistant" },
+      { name: "description", content: "AI Workplace Productivity Assistant is a web app that streamlines your workflow with AI-powered tools." },
+      { property: "og:description", content: "AI Workplace Productivity Assistant is a web app that streamlines your workflow with AI-powered tools." },
+      { name: "twitter:description", content: "AI Workplace Productivity Assistant is a web app that streamlines your workflow with AI-powered tools." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2cd98ead-2b52-48c1-b25d-3d2187f98b3d/id-preview-792ae5bd--f39ea16a-1fd3-4b2b-ab59-90c5c325f8e5.lovable.app-1781783485309.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2cd98ead-2b52-48c1-b25d-3d2187f98b3d/id-preview-792ae5bd--f39ea16a-1fd3-4b2b-ab59-90c5c325f8e5.lovable.app-1781783485309.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
